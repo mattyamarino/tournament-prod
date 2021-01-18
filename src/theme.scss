@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$tournament-app-primary: mat-palette($mat-indigo);
+$tournament-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+$tournament-app-warn:    mat-palette($mat-red);
+
+$tournament-app-theme: mat-dark-theme($tournament-app-primary, $tournament-app-accent, $tournament-app-warn);
+
+@include angular-material-theme($tournament-app-theme);

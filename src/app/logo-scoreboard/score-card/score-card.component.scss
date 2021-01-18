@@ -1,0 +1,53 @@
+  .tyler-image {
+    background-image: url('../../../assets/tyler-avatar.jpg');
+    background-size: cover;
+  }
+
+  .shelbie-image {
+    background-image: url('../../../assets/shel-avatar.jpg');
+    background-size: cover;
+  }
+
+  .vic-image {
+    background-image: url('../../../assets/vic-avatar.jpg');
+    background-size: cover;
+  }
+
+  .matt-image {
+    background-image: url('../../../assets/matt-avatar.jpg');
+    background-size: cover;
+  }
+
+  .card-title {
+    font-family: 'Bungee', cursive;
+    font-size: 11.5px;
+    margin-bottom: 0px !important;
+  }
+
+  .score-card-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    display: flex;
+  }
+
+
+  .score-card-subtitle{
+    font-size: 12px;
+  }
+
+  .score-card-text-ml2{
+    margin-left: 5px;
+  }
+
+  .score-card-position{
+    height: 16px;
+    margin-top: -7.5px;
+  }
+
+  .tims-idea {
+
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 100px;
+  }

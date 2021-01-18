@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "texas-tournament"
+  },
+  "targets": {
+    "texas-tournament": {
+      "hosting": {
+        "tournament-app": [
+          "texas-tournament"
+        ]
+      }
+    }
+  }
+}
