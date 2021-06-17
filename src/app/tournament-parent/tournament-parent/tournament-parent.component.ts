@@ -59,8 +59,8 @@ export class TournamentParentComponent implements OnInit {
 
   getTournamentEvents(): void {
     this.loading = true;
-    // this.firestore.collection("tournamentEvents").valueChanges().subscribe(res => {
-      this.firestore.collection("z-test-tournamentEvents").valueChanges().subscribe(res => {
+    this.firestore.collection("tournamentEvents").valueChanges().subscribe(res => {
+      // this.firestore.collection("z-test-tournamentEvents").valueChanges().subscribe(res => {
       this.resetValues();
       this.events = <TournamentEvent[]>res;
       this.calculateScores();
